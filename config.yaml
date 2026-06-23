@@ -1,0 +1,65 @@
+profile:
+  name: AI Robotics Researcher
+  timezone: Asia/Shanghai
+
+interests:
+  core_keywords:
+    - embodied intelligence
+    - embodied AI
+    - robot learning
+    - diffusion policy
+    - vision-language-action
+    - VLA
+    - humanoid robot
+    - sim2real
+    - world model
+    - reinforcement learning
+    - ROS2
+    - Isaac Lab
+  adjacent_keywords:
+    - multimodal agent
+    - autonomous driving
+    - foundation model
+    - 3D vision
+    - neural rendering
+    - imitation learning
+    - dexterous manipulation
+  watched_authors:
+    - Sergey Levine
+    - Pieter Abbeel
+    - Chelsea Finn
+    - Dieter Fox
+    - Fei-Fei Li
+
+sources:
+  arxiv:
+    enabled: true
+    categories:
+      - cs.RO
+      - cs.AI
+      - cs.LG
+      - cs.CV
+    max_results_per_day: 40
+  github:
+    enabled: true
+    languages:
+      - Python
+      - C++
+    organizations:
+      - openai
+      - google-deepmind
+      - facebookresearch
+      - NVIDIA
+      - huggingface
+      - ros2
+      - unitreerobotics
+    max_results_per_day: 40
+  huggingface:
+    enabled: true
+    max_results_per_day: 30
+
+report:
+  daily_top_papers: 5
+  daily_top_repos: 5
+  daily_top_models: 5
+  include_noise: false
